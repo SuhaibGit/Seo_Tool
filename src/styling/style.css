@@ -109,7 +109,7 @@ html, body {
     justify-content: space-evenly;
     height: 500px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .in-box{
     height: 100%;
@@ -123,7 +123,12 @@ html, body {
     width: 500px;
     background-color: #fff1cf;
     border-radius: 20px;
+    padding-top: 40px;
+  }
+  .in-box2 h1{
+    text-align: left;
+    font-size: 5rem;
   }
   .in-box2 p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
