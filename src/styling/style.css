@@ -102,6 +102,7 @@ html, body {
     color: #263f44;
     font-size: 3.9rem;
     letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
     
   }
   .in-cont{
@@ -123,14 +124,17 @@ html, body {
     width: 500px;
     background-color: #fff1cf;
     border-radius: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
+    
   }
   .in-box2 h1{
     text-align: left;
     font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
   }
   .in-box2 p{
     font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
   }
 .hero4-m{
   position: relative;
@@ -185,12 +189,14 @@ html, body {
   font-size:2.8rem;
   text-Align:left;
   color:#fff1cf;
-  padding-Left:20p;
+  padding-Left:20px;
+  font-family: 'Poppins', sans-serif;
 }
 .boxed p{
   color: #fff1cf;
   font-size: 1.2rem;
   padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -210,5 +216,27 @@ html, body {
   font-weight: 500;
   display: flex;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
 
+}
+
+.nav-button2 {
+  display: flex;
+  justify-content: start;
+  
+}
+.nav-button2 button {
+  background: #ffd369;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  width: 450px;
+  color: #263f44;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 40px;
 }

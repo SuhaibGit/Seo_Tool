@@ -11,6 +11,9 @@ const Hero3 = () => {
         <div className='in-box2'>
             <h1>use grid search</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
+            <div className='nav-button2'>
+                    <button></button>
+                </div>
         </div>
     </div>
     <Hero3_sub /> {/* Assuming this is another component */}
@@ -18,7 +21,10 @@ const Hero3 = () => {
         <div className='in-box' style={{ backgroundColor: "#ffd369" }}></div>
         <div className='in-box2'>
             <h1>monitor keywords</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illum minus doloribus obcaecati sed quod tenetur expedita dolorem quae, voluptas amet dolorum delectus, quas, saepe quasi. Voluptate debitis perspiciatis porro?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
+            <div className='nav-button2'>
+                    <button></button>
+                </div>
         </div>
     </div>
     <Hero4/>
