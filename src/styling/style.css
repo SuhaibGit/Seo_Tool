@@ -132,3 +132,83 @@ html, body {
   .in-box2 p{
     font-size: 1.3rem;
   }
+.hero4-m{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h4-s{
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.h4-ss{
+  display: grid;
+  grid-template-columns: repeat(14, minmax(0, 1fr));
+  gap: 25px;
+  padding: 80px;
+  justify-content: center;
+}
+.h4-under{
+  width: 80%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(8px, 1.5vw, 12px);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.boxed{
+  position: absolute;
+  top: 48%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  background-color: #015668;
+  display: flex;
+  align-items: flex-start; /* 'start' becomes 'flex-start' in CSS */
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 100;
+  color: white;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+.boxed h1{
+  font-size:2.8rem;
+  text-Align:left;
+  color:#fff1cf;
+  padding-Left:20p;
+}
+.boxed p{
+  color: #fff1cf;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+
+.nav-button {
+  display: flex;
+  justify-content: start;
+  
+}
+.nav-button button {
+  background: #fff1cf;
+  border-radius: 20px;
+  border: none;
+  width: 300px;
+  color: #263f44;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+
+}

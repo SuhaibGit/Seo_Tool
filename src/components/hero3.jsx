@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styling/style.css"
 import Hero3_sub from './hero3_sub'
+import Hero4 from './hero4'
 const Hero3 = () => {
   return (
     <div className='hero3-m'>
@@ -20,6 +21,7 @@ const Hero3 = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illum minus doloribus obcaecati sed quod tenetur expedita dolorem quae, voluptas amet dolorum delectus, quas, saepe quasi. Voluptate debitis perspiciatis porro?</p>
         </div>
     </div>
+    <Hero4/>
 </div>
   )
 }
