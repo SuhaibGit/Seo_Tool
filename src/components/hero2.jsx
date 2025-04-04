@@ -6,9 +6,8 @@ const Hero2 = () => {
     <section className='hm'>
         <div className='hmh'>
             <div className='hmhs'>
-                <h1> More than just a&nbsp;<span> grid tracker</span> </h1>
+                <h1>more than just a&nbsp;<span> grid tracker</span></h1>
             </div>
-
             <div className='stats-container'>
                 <div className='hms'>
                     <h1>5.5M</h1>

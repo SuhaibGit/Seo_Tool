@@ -5,7 +5,7 @@ import Hero4 from './hero4'
 const Hero3 = () => {
   return (
     <div className='hero3-m'>
-    <h1>Drive real growth using... SEO</h1>
+    <h1>drive real growth using... seo</h1>
     <div className='in-cont'>
         <div className='in-box'></div>
         <div className='in-box2'>
@@ -16,8 +16,8 @@ const Hero3 = () => {
                 </div>
         </div>
     </div>
-    <Hero3_sub /> {/* Assuming this is another component */}
-    <div className='in-cont'> {/* Separate container for the next row */}
+    <Hero3_sub />
+    <div className='in-cont'>
         <div className='in-box' style={{ backgroundColor: "#ffd369" }}></div>
         <div className='in-box2'>
             <h1>monitor keywords</h1>
