@@ -88,3 +88,42 @@ html, body {
     margin-top: 10px;
     color: #263f44;
   }
+  .hero3-m{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-color: #fff1cf;
+    padding: 50px 0px;
+    gap: 20px;
+  }
+  .hero3-m h1{
+    text-align: center;
+    color: #263f44;
+    font-size: 3.9rem;
+    letter-spacing: 3px;
+    
+  }
+  .in-cont{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .in-box{
+    height: 100%;
+    width: 670px;
+    background-color: #015668;
+    border-radius: 20px;
+  }
+  
+  .in-box2{
+    height: 100%;
+    width: 500px;
+    background-color: #fff1cf;
+    border-radius: 20px;
+  }
+  .in-box2 p{
+    font-size: 1.1rem;
+  }
