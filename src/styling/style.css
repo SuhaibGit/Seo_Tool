@@ -10,15 +10,18 @@ html, body {
     background-color: #263f44;
     height: 640px;
   }
+
   .hmh{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
+
   .hmhs{
     width: 100%;
     
   }
+
   .hmhs h1{
    width: 100%;
    display: flex;
@@ -32,11 +35,13 @@ html, body {
    letter-spacing: 3px;
 
   }
+
   .hmhs span{
     color: #fff1cf;
     letter-spacing: 3px;
     margin: 0;
   }
+
   .hms{
     display: flex;
     flex-direction: column;
@@ -48,12 +53,14 @@ html, body {
     font-family: 'Poppins', sans-serif;
     padding: 20px;
   }
+
   .stats-container{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
   .hms2{
     display: flex;
     flex-direction: column;
@@ -64,30 +71,35 @@ html, body {
     font-family: 'Poppins', sans-serif;
     padding: 20px;
   }
+
   .hms h1{
     color: #263f44;
     font-size: 2.6rem;
     padding-left: 10px;
     margin: 0;
   }
+
   .hms p{
     margin: 0;
     font-size: 1.1rem;
     margin-top: 10px;
     color: #263f44;
   }
+
   .hms2 h1{
     font-size: 2.6rem;
     padding-left: 10px;
     color: #263f44;
     margin: 0;
   }
+
   .hms2 p{
     margin: 0;
     font-size: 1.1rem;
     margin-top: 10px;
     color: #263f44;
   }
+
   .hero3-m{
     display: flex;
     flex-direction: column;
@@ -97,14 +109,15 @@ html, body {
     padding: 50px 0px;
     gap: 20px;
   }
+
   .hero3-m h1{
     text-align: center;
     color: #263f44;
-    font-size: 3.9rem;
-    letter-spacing: 3px;
+    font-size: 4.5rem;
     font-family: 'Poppins', sans-serif;
     
   }
+
   .in-cont{
     display: flex;
     justify-content: space-evenly;
@@ -112,6 +125,7 @@ html, body {
     width: 100%;
     margin-top: 30px;
   }
+
   .in-box{
     height: 100%;
     width: 670px;
@@ -127,15 +141,18 @@ html, body {
     padding-top: 20px;
     
   }
+
   .in-box2 h1{
     text-align: left;
     font-size: 5rem;
     font-family: 'Poppins', sans-serif;
   }
+  
   .in-box2 p{
     font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;
   }
+
 .hero4-m{
   position: relative;
   width: 100%;
@@ -144,11 +161,13 @@ html, body {
   flex-direction: column;
   align-items: center;
 }
+
 .h4-s{
   width: 100%;
   padding: 16px;
   box-sizing: border-box;
 }
+
 .h4-ss{
   display: grid;
   grid-template-columns: repeat(14, minmax(0, 1fr));
@@ -156,6 +175,7 @@ html, body {
   padding: 80px;
   justify-content: center;
 }
+
 .h4-under{
   width: 80%;
   aspect-ratio: 1/1;
@@ -166,16 +186,17 @@ html, body {
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
+
 .boxed{
   position: absolute;
   top: 48%;
   left: 49.5%;
   transform: translate(-50%, -50%);
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   background-color: #015668;
   display: flex;
-  align-items: flex-start; /* 'start' becomes 'flex-start' in CSS */
+  align-items: flex-start;
   justify-content: center;
   font-size: 24px;
   font-weight: bold;
@@ -185,47 +206,51 @@ html, body {
   padding: 20px;
   gap: 20px;
 }
+
 .boxed h1{
-  font-size:2.8rem;
-  text-Align:left;
+  font-size: 3.8rem;
+  text-Align: left;
   color:#fff1cf;
   padding-Left:20px;
   font-family: 'Poppins', sans-serif;
 }
+
 .boxed p{
   color: #fff1cf;
   font-size: 1.2rem;
   padding-left: 20px;
+  font-weight: 200;
   font-family: 'Poppins', sans-serif;
 }
 
 
-.nav-button {
+.just-button {
   display: flex;
   justify-content: start;
   
 }
-.nav-button button {
+
+.just-button button {
   background: #fff1cf;
   border-radius: 20px;
   border: none;
   width: 300px;
   color: #263f44;
   padding: 5px;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 800;
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
 
 }
 
-.nav-button2 {
+.just-button2 {
   display: flex;
   justify-content: start;
   
 }
-.nav-button2 button {
+.just-button2 button {
   background: #ffd369;
   border-radius: 20px;
   border: none;

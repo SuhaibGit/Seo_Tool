@@ -49,13 +49,11 @@ function Hero4() {
         </div>
       </div>
       <div className='boxed'>
-        <h1>
-            and audited gmb
-        </h1>
+        <h1>and audit gmb</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div className='nav-button'>
-                    <button>Sign Up</button>
-                </div>
+        <div className='just-button'>
+          <button>Sign Up</button>
+        </div>
       </div>
     </div>
   );
