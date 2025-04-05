@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import '../styling/App.css'
+import '../styling/style.css'
+
+import { TypeAnimation } from 'react-type-animation';
 export default function HeroSection() {
     return (
         <>
@@ -59,7 +62,19 @@ export default function HeroSection() {
                     <div className='search-bar'><p>HQ Dance Studio Dallas</p></div>
                 </div>
                 <div className='info-div'>
-                    <h1>track your local efforts</h1>
+                    <h1> 
+                                
+                        <TypeAnimation
+                            sequence={[
+                                'track your local efforts.',
+                                1000,
+                            ]}
+                            wrapper="span"
+                            speed={20}
+                            repeat={Infinity}
+                        />
+                                
+                    </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum deleniti, optio quas libero, rem facere quaerat quam earum corporis soluta perferendis beatae maiores molestias aperiam porro nobis. Exercitationem, obcaecati vel!</p>
                     <button className='sgn-btn'>Sign Up</button>
                 </div>
