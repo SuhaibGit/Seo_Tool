@@ -10,20 +10,20 @@ const Hero2 = () => {
             </div>
 
             <div className='stats-container'>
-                <div className='hms'>
+                <div className='hms block'>
                     <h1>5.5M</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
                 </div >
-                <div className='hms2'>
+                <div className='hms2 block'>
                     <h1>5x</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
                 </div>
                 
-                <div className='hms'>
+                <div className='hms block'>
                     <h1>89%</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
                 </div>
-                <div className='hms2'>
+                <div className='hms2 block'>
                     <h1>5x</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
                 </div>
