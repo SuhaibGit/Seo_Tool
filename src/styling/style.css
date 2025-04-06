@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
   }
   
   .hm {
@@ -304,7 +305,7 @@ html, body {
 @keyframes appear3{
   from {
     opacity:0;
-    transform: translateX(50px);
+    transform: translateX(200px);
   }
   to{
     opacity:1;
