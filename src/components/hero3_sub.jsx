@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styling/style.css"
+import cw from '../assets/images/CW.png';
 const Hero3_sub = () => {
   return (
     <div className='in-cont'>
@@ -10,7 +11,9 @@ const Hero3_sub = () => {
                     <button>Sign up</button>
                 </div>
             </div>
-            <div className='in-box block3' style={{ backgroundColor: "#263f44" }}></div>
+            <div className='in-box block3'>
+              <img src={cw} alt="" />
+            </div>
         </div>
   )
 }

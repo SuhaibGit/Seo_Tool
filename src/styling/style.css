@@ -129,8 +129,12 @@ html, body {
   .in-box{
     height: 100%;
     width: 670px;
-    background-color: #015668;
     border-radius: 20px;
+  }
+
+  .in-box img {
+    width: 500px;
+    height: auto;
   }
   
   .in-box2{
@@ -300,7 +304,7 @@ html, body {
 @keyframes appear3{
   from {
     opacity:0;
-    transform: translateX(200px);
+    transform: translateX(50px);
   }
   to{
     opacity:1;
