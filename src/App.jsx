@@ -2,12 +2,14 @@ import HeroSection from './components/hero';
 import Hero2 from './components/hero2';
 import Hero3 from './components/hero3';
 import DataSEO from './components/dataSEO';
+import MainForm from './components/form';
+import { Footer } from './components/form';
 import { motion, useScroll } from "framer-motion"
 function App() {
   const { scrollYProgress } = useScroll()
   return (
     <>
-      <motion.div
+      {/* <motion.div
         id="scroll-indicator"
         style={{
             scaleX: scrollYProgress,
@@ -20,11 +22,13 @@ function App() {
             backgroundColor: "#ffd369",
             zIndex:1000
         }}
-      />
+      /> */}
       <HeroSection/>
       <Hero2/>
       <Hero3/>
       <DataSEO/>
+      <MainForm/>
+      <Footer />
     </>
   )
 }

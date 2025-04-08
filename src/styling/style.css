@@ -270,7 +270,9 @@ html, body {
   font-family: 'Poppins', sans-serif;
   margin-top: 40px;
 }
+
 @keyframes appear{
+
   from {
     opacity:0;
     scale: 0.5;
@@ -280,12 +282,15 @@ html, body {
     scale: 1;
   }
 }
+
 .block{
   animation: appear  linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
 @keyframes appear2{
+
   from {
     opacity:0;
     transform: translateX(-200px);
@@ -296,6 +301,7 @@ html, body {
 
   }
 }
+
 .block2{
   animation: appear2  linear;
   animation-timeline: view();
@@ -313,11 +319,13 @@ html, body {
 
   }
 }
+
 .block3{
   animation: appear3  linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
 .info-div h1{
   height: 200px;
   margin-bottom: 50px;
