@@ -9,7 +9,7 @@ html, body {
   .hm {
     width: 100%;
     background-color: #263f44;
-    height: 640px;
+    padding: 30px 0px;
   }
 
   .hmh{
@@ -33,13 +33,10 @@ html, body {
    margin-top: 0;
    color: #ffd369;
    font-family: 'Poppins', sans-serif;
-   letter-spacing: 3px;
-
   }
 
   .hmhs span{
     color: #fff1cf;
-    letter-spacing: 3px;
     margin: 0;
   }
 
@@ -47,10 +44,10 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 260px;
+    width: 250px;
     height: 325px;
     background-color: #ffd369; 
-    border-radius: 50px;
+    border-radius: 30px;
     font-family: 'Poppins', sans-serif;
     padding: 20px;
   }
@@ -59,7 +56,8 @@ html, body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 10px;
   }
 
   .hms2{
@@ -73,11 +71,12 @@ html, body {
     padding: 20px;
   }
 
-  .hms h1{
+  .hms h2{
     color: #263f44;
     font-size: 2.6rem;
     padding-left: 10px;
     margin: 0;
+    text-align: left;
   }
 
   .hms p{
@@ -85,9 +84,10 @@ html, body {
     font-size: 1.1rem;
     margin-top: 10px;
     color: #263f44;
+    text-align: left;
   }
 
-  .hms2 h1{
+  .hms2 h2{
     font-size: 2.6rem;
     padding-left: 10px;
     color: #263f44;
@@ -107,7 +107,7 @@ html, body {
     height: auto;
     width: 100%;
     background-color: #fff1cf;
-    padding: 50px 0px;
+    padding: 0px;
     gap: 20px;
   }
 
@@ -121,16 +121,18 @@ html, body {
 
   .in-cont{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 500px;
     width: 100%;
     margin-top: 30px;
   }
 
-  .in-box{
+  .in-box {
     height: 100%;
-    width: 670px;
+    width: 650px;
     border-radius: 20px;
+    align-self: center;
+    justify-self: center;
   }
 
   .in-box img {
@@ -138,30 +140,35 @@ html, body {
     height: auto;
   }
   
-  .in-box2{
+  .in-box2 {
     height: 100%;
-    width: 500px;
+    width: 800px;
     background-color: #fff1cf;
     border-radius: 20px;
-    padding-top: 20px;
-    
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
   }
 
-  .in-box2 h1{
+  .in-box2 h2{
     text-align: left;
     font-size: 5rem;
+    color: #263f44;
     font-family: 'Poppins', sans-serif;
   }
   
   .in-box2 p{
     font-size: 1.3rem;
+    color: #263f44;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
   }
 
 .hero4-m{
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -169,15 +176,14 @@ html, body {
 
 .h4-s{
   width: 100%;
-  padding: 16px;
   box-sizing: border-box;
 }
 
 .h4-ss{
   display: grid;
   grid-template-columns: repeat(14, minmax(0, 1fr));
-  gap: 25px;
-  padding: 80px;
+  gap: 10px;
+  padding: 10px;
   justify-content: center;
 }
 
@@ -187,18 +193,17 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(8px, 1.5vw, 12px);
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
 
 .boxed{
   position: absolute;
-  top: 48%;
-  left: 49.5%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
+  width: 800px;
+  height: 800px;
   background-color: #015668;
   display: flex;
   align-items: flex-start;
@@ -209,21 +214,19 @@ html, body {
   color: white;
   flex-direction: column;
   padding: 20px;
-  gap: 20px;
+  gap: 10px;
 }
 
 .boxed h1{
   font-size: 3.8rem;
   text-Align: left;
   color:#fff1cf;
-  padding-Left:20px;
   font-family: 'Poppins', sans-serif;
 }
 
 .boxed p{
   color: #fff1cf;
   font-size: 1.2rem;
-  padding-left: 20px;
   font-weight: 200;
   font-family: 'Poppins', sans-serif;
 }
@@ -271,62 +274,342 @@ html, body {
   margin-top: 40px;
 }
 
-@keyframes appear{
-
-  from {
-    opacity:0;
-    scale: 0.5;
-  }
-  to{
-    opacity:1;
-    scale: 1;
-  }
-}
-
 .block{
-  animation: appear  linear;
+  /* animation: appear  linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-
-@keyframes appear2{
-
-  from {
-    opacity:0;
-    transform: translateX(-200px);
-  }
-  to{
-    opacity:1;
-    transform: translateX(0px);
-
-  }
+  animation-range: entry 0% cover 40%; */
+  width: 550px;
+  align-items: center;
 }
 
 .block2{
-  animation: appear2  linear;
+  /* animation: appear2  linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 40%; */
+  width: 550px;
+  align-items: center;
 }
 
-@keyframes appear3{
-  from {
-    opacity:0;
-    transform: translateX(200px);
-  }
-  to{
-    opacity:1;
-    transform: translateX(0px);
-
-  }
-}
 
 .block3{
-  animation: appear3  linear;
+  /* animation: appear3  linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 40%; */
+  width: 550px;
+  align-items: center;
 }
 
-.info-div h1{
-  height: 200px;
-  margin-bottom: 50px;
+@media (max-width: 1500px) {
+  .hms, .hms2 {
+    width: 220px;
+    height: 300px;
+  }
+
+  .hms h2, .hms2 h2 {
+    font-size: 2.4rem;;
+  }
+
+  .hms p, .hms2 p {
+    font-size: 0.9rem;
+  }
+
+  .boxed {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+  }
+
+  .boxed h1 {
+    font-size: 3.2rem;
+  }
+
+  .boxed p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hms, .hms2 {
+    width: 180px;
+    height: 280px;
+  }
+
+  .hmhs h1 {
+    font-size: 3.5rem;
+  }
+
+  .hms h2, .hms2 h2 {
+    font-size: 2.2rem;;
+  }
+
+  .hms p, .hms2 p {
+    font-size: 0.8rem;
+  }
+
+  .in-box img {
+    width: 450px;
+  }
+
+  .in-box2 {
+    width: 700px;
+  }
+
+  .in-box2 h2 {
+    font-size: 4.0rem;
+  }
+
+  .in-box2 p {
+    font-size: 1.0rem;
+  }
+
+  .just-button2 {
+    width: 70%;
+  }
+
+  .block3, .block, .block2 {
+    width: 475px;
+  }
+
+  .boxed h1 {
+    font-size: 3.0rem;
+  }
+
+  .boxed p {
+    font-size: 1rem;
+  }
+
+  .just-button {
+    width: 70%;
+  }
+}
+
+@media (max-width: 950px) {
+  .hms, .hms2 {
+    width: 140px;
+    height: 240px;
+  }
+
+  .hmhs h1 {
+    font-size: 2.8rem;
+  }
+
+  .hms h2, .hms2 h2 {
+    font-size: 1.8rem;;
+  }
+
+  .hms p, .hms2 p {
+    font-size: 0.7rem;
+  }
+
+  .in-box img {
+    width: 350px;
+  }
+
+  .in-box2 {
+    width: 600px;
+  }
+
+  .in-box2 h2 {
+    font-size: 4.0rem;
+  }
+
+  .in-box2 p {
+    font-size: 1.0rem;
+  }
+
+  .just-button2 {
+    width: 70%;
+  }
+
+  .block3, .block, .block2 {
+    width: 350px;
+  } 
+
+  .boxed {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .boxed h1 {
+    font-size: 2.1rem;
+  }
+
+  .boxed p {
+    font-size: 0.9rem;
+  }
+
+  .just-button {
+    width: 70%;
+  }
+
+  .just-button button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 775px) {
+  .hms, .hms2 {
+    width: 140px;
+    height: 240px;
+  }
+
+  .stats-container {
+    justify-items: auto ;
+  }
+
+  .hmhs h1 {
+    font-size: 2.6rem;
+  }
+
+  .hms h2, .hms2 h2 {
+    font-size: 1.8rem;;
+  }
+
+  .hms p, .hms2 p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .in-cont {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .in-box img {
+    width: 350px;
+  }
+
+  .in-box2 {
+    width: 800px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .in-box2 h2 {
+    font-size: 4.0rem;
+    text-align: center;
+  }
+
+  .in-box2 p {
+    font-size: 1.0rem;
+    text-align: center;
+  }
+
+  .just-button2 {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .block2, .block3 {
+    width: 550px;
+    text-align: center;
+  }
+  
+  .block4 {
+    order: 2;
+  }
+
+  .boxed {
+    width: 230px;
+    height: 230px;
+    font-size: 20px;
+  }
+  
+  .boxed h1 {
+    font-size: 2.1rem;
+  }
+
+  .boxed p {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .hmhs h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero3-m h1 {
+    font-size: 3.5rem;
+  }
+
+  .in-box2 {
+    width: 80%;
+  }
+
+  .in-box2 h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .in-box2 p {
+    font-size: 0.9rem;
+  }
+
+  .boxed {
+    width: 210px;
+    height: 210px;
+    padding: 15px;
+  }
+
+  .boxed h1 {
+    font-size: 1.9rem;
+  }
+
+  .boxed p {
+    font-size: 0.8rem;
+  }
+
+  .just-button button {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  .hms, .hms2 {
+    width: 100px;
+    height: 200px;
+  }
+
+  .stats-container {
+    gap: 15px;
+  }
+
+  .hero3-m h1 {
+    font-size: 2.8rem;
+  }
+
+  .in-box img {
+    width: 300px;
+  }
+
+  .in-box2 h2 {
+    font-size: 2.8rem;
+  }
+
+  .boxed {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .boxed h1 {
+    font-size: 1.6rem;
+  }
+
+  .boxed p {
+    font-size: 0.8rem;
+  }
+
+  .just-button {
+    width: 50%;
+  }
+
+  .just-button button {
+    font-size: 10px;
+  }
+
 }

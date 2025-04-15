@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import "../styling/style.css"
 
 function Hero4() {
-  const rows = 7;
+  const rows = 9;
   const cols = 14;
   const totalBoxes = rows * cols;
   const [color1Boxes, setColor1Boxes] = useState([]);
   const [color2Boxes, setColor2Boxes] = useState([]);
   useEffect(() => {
-    const numBoxesColor1 = Math.floor(Math.random() * 2) + 5;
+    const numBoxesColor1 = Math.floor(Math.random() * 5) + 5;
     const boxesColor1 = new Set();
     while (boxesColor1.size < numBoxesColor1) {
       const randomIndex = Math.floor(Math.random() * totalBoxes);
@@ -16,7 +16,7 @@ function Hero4() {
         boxesColor1.add(randomIndex);
       }
     }
-    const numBoxesColor2 = Math.floor(Math.random() * 2) + 5;
+    const numBoxesColor2 = Math.floor(Math.random() * 4) + 4;
     const boxesColor2 = new Set();
     while (boxesColor2.size < numBoxesColor2) {
       const randomIndex = Math.floor(Math.random() * totalBoxes);
@@ -51,9 +51,9 @@ function Hero4() {
       <div className='boxed'>
         <h1>and audit gmb</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <div className='just-button'>
+        {/* <div className='just-button'>
           <button>Sign Up</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

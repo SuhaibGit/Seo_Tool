@@ -25,10 +25,10 @@ function App() {
       /> */}
       <HeroSection/>
       <Hero2/>
-      <Hero3/>
+      <Hero3/> 
       <DataSEO/>
       <MainForm/>
-      <Footer />
+      <Footer /> 
     </>
   )
 }

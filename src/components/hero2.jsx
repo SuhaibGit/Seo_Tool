@@ -6,25 +6,25 @@ const Hero2 = () => {
     <section className='hm'>
         <div className='hmh'>
             <div className='hmhs'>
-                <h1>more than just a&nbsp;<span> grid tracker</span></h1>
+                <h1>more than just a grid tracker</h1>
             </div>
             <div className='stats-container'>
                 <div className='hms block'>
-                    <h1>5.5M</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
+                    <h2>5.5M</h2>
+                    <p>searches everyday on the web</p>
                 </div >
                 <div className='hms2 block'>
-                    <h1>5x</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
+                    <h2>5x</h2>
+                    <p>speed of what a normal tracker has on market</p>
                 </div>
                 
                 <div className='hms block'>
-                    <h1>89%</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
+                    <h2>89%</h2>
+                    <p>accurate than the nearest competitors</p>
                 </div>
                 <div className='hms2 block'>
-                    <h1>5x</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste deserunt assumenda veniam recusandae sint natus accusantium blanditiis quas error quibusdam, itaque dicta explicabo praesentium vero excepturi vitae fugiat soluta? Beatae.</p>
+                    <h2>5x</h2>
+                    <p>powerful and accurate than the local falcon</p>
                 </div>
             </div>
         </div>

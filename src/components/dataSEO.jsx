@@ -86,22 +86,22 @@ export default function DataSEO() {
                         >
                             {index % 2 === 0 ? (
                                 <>
-                                    <div className="feature-text block2">
+                                    <div className="feature-text">
                                         <h3>{title}</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus dolores quam architecto ipsum perspiciatis odio hic, maiores fuga dolor culpa nihil nulla consequatur quasi impedit quo consequuntur nobis perferendis!</p>
                                     </div>
-                                    <div className="feature-img block3">
+                                    <div className="feature-img">
                                         <img src={[website, tier, keyword, entity, pr][index]} alt="" />
                                     </div>
                                 </>
                             ) : (
                                 <>
-                                    <div className="feature-img block2">
+                                    <div className="feature-img">
                                         <img src={[website, tier, keyword, entity, pr][index]} alt="" />
                                     </div>
-                                    <div className="feature-text block3">
+                                    <div className="feature-text">
                                         <h3>{title}</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur...</p>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, quis numquam dolore magnam ad explicabo ipsam, molestiae itaque maiores aliquid mollitia minus enim quam eveniet tempore quisquam iure architecto. Maiores.</p>
                                     </div>
                                 </>
                             )}

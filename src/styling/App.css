@@ -1,4 +1,4 @@
-* {
+* , body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -58,7 +58,8 @@
   display: flex;
   flex-direction: row;
   background: #fff1cf;
-  height: 100vh;
+  height: 100%;
+  padding: 20px;
 }
 
 .marker-div,
@@ -66,7 +67,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  margin-top: 20px;
+  margin: 80px 0px;
 }
 
 .info-div {
@@ -77,6 +78,7 @@
 .info-div h1 {
   color: #263f44;
   font-size: 90px;
+  margin: 0;
 }
 
 .info-div p {
@@ -122,9 +124,9 @@
   border-radius: 100%;
   color: #263f44;
   font-size: 25px;
-  justify-items: center;
-  align-content: center;
   font-weight: 800;
+  align-content: center;
+  justify-items: center;
 }
 
 .search-bar {
@@ -140,7 +142,7 @@
   font-size: 30px;
 }
 
-.gmb-box {
+/* .gmb-box {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -192,7 +194,7 @@
   color: #263f44;
   font-size: 40px;
   font-weight: 600;
-}
+} */
 
 .data-seo-container {
   background: #015668;
@@ -299,20 +301,24 @@
   display: flex;
   flex-direction: column;
   background: #fff1cf;
-  height: 90vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .form-div h2 {
   color: #263f44;
   font-size: 60px;
+  text-align: center;
+  padding: 0px 20px;
 }
 
 .form-div p {
   color: #263f44;
   font-size: 20px;
   margin: 10px;
+  text-align: center;
   font-weight: 500;
 }
 
@@ -396,6 +402,7 @@
   color: #fff1cf;
   font-size: 20px;
   gap: 10px;
+  text-align: center;
 }
 
 .ith-class {
@@ -408,4 +415,549 @@
   align-items: center;
   color: #263f44;
   font-size: 20px;
+}
+
+
+@media (max-width: 1500px) {
+  .nav-bar {
+    max-width: 1000px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .nav-button button {
+    font-size: 16px;
+  }
+
+  .info-div {
+    gap: 20px;
+  }
+
+  .info-div h1 {
+    font-size: 80px;
+  }
+
+  .info-div p {
+    font-size: 20px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-bar {
+    max-width: 900px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .nav-button button {
+    font-size: 16px;
+  }
+
+  .info-div {
+    gap: 10px;
+  }
+
+  .info-div h1 {
+    font-size: 70px;
+  }
+
+  .info-div p {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  .sgn-btn {
+    font-size: 22px;
+  }
+
+  .marker {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .search-bar {
+    width: 400px;
+    height: 35px;
+  }
+
+  .search-bar p {
+    font-size: 25px;
+  }
+
+  .data-seo h2 {
+    font-size: 70px;
+  }
+
+  .scroll-dot {
+    width: 80px;
+    height: 80px;
+  }
+
+  .one-feature {
+    gap: 120px;
+  }
+
+  .feature-text h3 {
+    font-size: 60px;
+  }
+
+  .feature-text p {
+    font-size: 22px;
+  }
+
+  .feature-img {
+    padding: 10px;
+  }
+
+  .feature-img img {
+    width: 420px;
+    height: 420px;
+  }
+
+  .form-div h2 {
+    font-size: 55px;
+  }
+
+  .counter {
+    padding: 5px;
+  }
+
+  .counter h2 {
+    font-size: 45px;
+  }
+
+}
+
+
+@media (max-width: 950px) {
+  .nav-bar {
+    max-width: 700px;
+    height: 50px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .nav-button button {
+    font-size: 14px;
+    width: 40%;
+  }
+
+  .marker-div, .info-div {
+    margin: 60px 0px;
+  }
+
+  .info-div {
+    gap: 10px;
+  }
+
+  .info-div h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .info-div p {
+    font-size: 16px;
+    padding: 0px;
+  }
+
+  .sgn-btn {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .marker {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .main-box{
+    gap: 25px;
+  }
+
+  .grid-line {
+    gap: 25px;
+  }
+
+  .search-bar {
+    width: 320px;
+    height: 30px;
+  }
+
+  .search-bar p {
+    font-size: 20px;
+  }
+
+  .data-seo h2 {
+    font-size: 60px;
+  }
+
+  .scroll-dot {
+    width: 70px;
+    height: 70px;
+  }
+
+  .one-feature {
+    gap: 100px;
+    margin: 30px;
+  }
+
+  .feature-text h3 {
+    font-size: 50px;
+  }
+
+  .feature-text p {
+    font-size: 20px;
+  }
+
+  .feature-img {
+    padding: 8px;
+  }
+
+  .feature-img img {
+    width: 330px;
+    height: 330px;
+  }
+
+  .counter h2 {
+    font-size: 40px;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+
+}
+
+
+@media (max-width: 775px) {
+  .nav-bar {
+    max-width: 600px;
+    height: 65px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .nav-button button {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  #hero-section {
+    flex-direction: column;
+  }
+
+  .marker-div, .info-div {
+    margin: 0px;
+  }
+
+  .info-div {
+    gap: 10px;
+    order: 1;
+    align-items: center;
+    margin: 50px;
+    text-align: center;
+  }
+
+  .marker-div {
+    order: 2;
+  }
+
+  .info-div h1 {
+    font-size: 75px;
+  }
+
+  .info-div p {
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  .sgn-btn {
+    display: none;
+  }
+
+  .marker {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 800;
+    justify-self: center;
+  }
+
+  .marker p {
+    padding: 0;
+  }
+
+  .main-box{
+    gap: 30px;
+  }
+
+  .grid-line {
+    gap: 30px;
+  }
+
+  .search-bar {
+    width: 520px;
+    height: 50px;
+  }
+
+  .search-bar p {
+    font-size: 30px;
+  }
+
+  .scroll-line {
+    left: 6%;
+  }
+
+  .feature-img {
+    order: 1;
+    gap: 0px;
+  }
+
+  .feature-img img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .feature-text {
+    order: 2;
+    gap: 0px;
+    padding: 0px 50px;
+  }
+
+  .feature-text h3, p {
+    padding-left: 20px;
+  }
+
+  .one-feature {
+    flex-direction: column;
+    margin: 0px;
+    gap: 20px;
+  }
+
+  .form-div h2 {
+    font-size: 45px;
+  }
+
+  .form-div p {
+    font-size: 18px;
+  }
+
+  .form-a, .counter {
+    width: 65%;
+  }
+
+  .counter h2 {
+    font-size: 35px;
+  }
+
+  .footer p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .ith-class {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .nav-bar {
+    max-width: 450px;
+    height: 60px;
+  }
+
+  .nav-links a {
+    display: none;
+  }
+
+  .nav-button button {
+    font-size: 14px;
+  }
+
+  .info-div {
+    margin: 50px 30px;
+  }
+
+  .info-div h1 {
+    font-size: 60px;
+  }
+
+  .info-div p {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  .marker {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .main-box{
+    gap: 25px;
+  }
+
+  .grid-line {
+    gap: 20px;
+  }
+
+  .search-bar {
+    width: 320px;
+    height: 40px;
+  }
+
+  .search-bar p {
+    font-size: 20px;
+  }
+
+  .data-seo h2 {
+    font-size: 50px;
+  }
+
+  .scroll-line {
+    left: 8%;
+  }
+
+  .scroll-track {
+    width: 10px;
+  }
+
+  .scroll-dot {
+    width: 60px;
+    height: 60px;
+    font-size: 3rem;
+  }
+
+
+  .feature-img img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .feature-text h3 {
+    font-size: 35px;
+  }
+
+  .feature-text p {
+    font-size: 18px;
+  }
+
+  .form-a input {
+    width: 100%;
+  }
+
+  .counter {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 470px) {
+  .nav-bar {
+    max-width: 350px;
+    height: 40px;
+  }
+
+  .nav-button button {
+    display: none;
+  }
+
+  .info-div {
+    margin: 50px 20px;
+  }
+
+  .marker-div {
+    align-items: center;
+  }
+
+  .info-div h1 {
+    font-size: 45px;
+  }
+
+  .info-div p {
+    font-size: 16px;
+  }
+
+  .marker {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .main-box{
+    gap: 18px;
+    align-items: center;
+  }
+
+  .grid-line {
+    gap: 18px;
+  }
+
+  .search-bar {
+    width: 320px;
+    height: 40px;
+  }
+
+  .search-bar p {
+    font-size: 18px;
+  }
+
+  .data-seo h2 {
+    font-size: 40px;
+  }
+
+  .scroll-line {
+    left: 8%;
+  }
+
+  .scroll-track {
+    width: 8px;
+  }
+
+  .scroll-dot {
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+    border: 2px solid #263f44;
+  }
+
+  .form-a label {
+    font-size: 18px;
+  }
+
+  .form-a input {
+    height: 40px;
+    border-radius: 10px;
+  };
+
+  .form-a button {
+    padding: 5px;
+  }
+
+  .counter {
+    width: 85%;
+  }
+
+  .counter h2 {
+    font-size: 30px;
+  }
+
 }
