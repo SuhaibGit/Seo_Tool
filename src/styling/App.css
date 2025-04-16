@@ -22,6 +22,12 @@
   gap: 20px;
 }
 
+.nav-bar img {
+  width: 50px;
+  height: 50px;
+  padding-left: 20px;
+}
+
 .nav-links {
   gap: 20px;
   display: flex;
@@ -142,62 +148,9 @@
   font-size: 30px;
 }
 
-/* .gmb-box {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background: #fff1cf;
-  padding: 20px;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-.gmb-square {
-  width: 60px;
-  height: 60px;
-  background: #ffd369;
-}
-
-.single-line {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-.square-audit {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  background: #015668;
-  width: 600px;
-  height: 600px;
-  z-index: 20;
-  padding: 20px;
-  gap: 40px;
-}
-
-.square-audit h2 {
-  color: #fff1cf;
-  font-size: 100px;
-}
-
-.square-audit p {
-  color: #fff1cf;
-  font-size: 20px;
-}
-
-.square-audit button {
-  border: none;
-  background: #fff1cf;
-  border-radius: 20px;
-  color: #263f44;
-  font-size: 40px;
-  font-weight: 600;
-} */
-
 .data-seo-container {
   background: #015668;
+  padding: 50px 0px;
 }
 
 .data-seo {
@@ -455,8 +408,9 @@
   }
 
   .nav-button button {
-    font-size: 16px;
+    width: 100%;
   }
+
 
   .info-div {
     gap: 10px;
@@ -541,13 +495,18 @@
     height: 50px;
   }
 
+  .nav-bar img {
+    width: 40px;
+    height: 40px;
+  }
+
   .nav-links a {
     font-size: 14px;
   }
 
   .nav-button button {
     font-size: 14px;
-    width: 40%;
+    width: 70%;
   }
 
   .marker-div, .info-div {
@@ -784,6 +743,7 @@
 
   .nav-button button {
     font-size: 14px;
+    margin: 0px 20px 0px 0px;
   }
 
   .info-div {
@@ -871,6 +831,11 @@
   .nav-bar {
     max-width: 350px;
     height: 40px;
+  }
+
+  .nav-bar img {
+    width: 30px;
+    height: 30px;
   }
 
   .nav-button button {

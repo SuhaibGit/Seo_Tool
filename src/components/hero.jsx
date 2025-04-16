@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styling/App.css';
 import '../styling/style.css';
+import logo from '../assets/images/logo.png';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function HeroSection() {
@@ -78,6 +79,7 @@ function Grid({ first }) {
 function Header() {
     return (
         <div className='nav-bar'>
+            <img src={logo} alt="" />
             <div className='nav-links'>
                 <a href="#">Use Case</a>
                 <a href="#">About Us</a>
