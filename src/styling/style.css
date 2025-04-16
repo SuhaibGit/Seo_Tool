@@ -44,8 +44,8 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 250px;
-    height: 325px;
+    width: 220px;
+    height: 280px;
     background-color: #ffd369; 
     border-radius: 30px;
     font-family: 'Poppins', sans-serif;
@@ -53,19 +53,20 @@ html, body {
   }
 
   .stats-container{
-    width: 100%;
+    width: 98%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
-    gap: 10px;
+    gap: 20px;
+    padding: 10px;
   }
 
   .hms2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 260px;
-    height: 325px;
+    width: 220px;
+    height: 280px;
     background-color: #fff1cf; 
     font-family: 'Poppins', sans-serif;
     padding: 20px;
@@ -73,7 +74,7 @@ html, body {
 
   .hms h2{
     color: #263f44;
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     padding-left: 10px;
     margin: 0;
     text-align: left;
@@ -88,7 +89,7 @@ html, body {
   }
 
   .hms2 h2{
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     padding-left: 10px;
     color: #263f44;
     margin: 0;
@@ -312,6 +313,14 @@ html, body {
   .hms p, .hms2 p {
     font-size: 0.9rem;
   }
+  .h4-ss{
+    gap: 10px;
+    padding: 10px;
+
+  }
+  .hero4-m{
+    min-height: 100%;
+  }
 
   .boxed {
     width: 400px;
@@ -384,6 +393,9 @@ html, body {
 }
 
 @media (max-width: 950px) {
+  .stats-container{
+    flex-wrap: wrap;
+  }
   .hms, .hms2 {
     width: 140px;
     height: 240px;
@@ -424,6 +436,14 @@ html, body {
   .block3, .block, .block2 {
     width: 350px;
   } 
+  .h4-ss{
+    gap: 10px;
+    padding: 10px;
+
+  }
+  .hero4-m{
+    min-height: 100%;
+  }
 
   .boxed {
     width: 230px;
@@ -453,9 +473,9 @@ html, body {
     height: 240px;
   }
 
-  .stats-container {
-    justify-items: auto ;
-  }
+    /* .stats-container {
+      justify-items: auto ;
+    } */
 
   .hmhs h1 {
     font-size: 2.6rem;
@@ -507,7 +527,14 @@ html, body {
     width: 550px;
     text-align: center;
   }
-  
+  .h4-ss{
+    gap: 10px;
+    padding: 10px;
+
+  }
+  .hero4-m{
+    min-height: 100%;
+  }
   .block4 {
     order: 2;
   }
@@ -549,6 +576,14 @@ html, body {
   .in-box2 p {
     font-size: 0.9rem;
   }
+  .h4-ss{
+    gap: 10px;
+    padding: 10px;
+
+  }
+  .hero4-m{
+    min-height: 100%;
+  }
 
   .boxed {
     width: 210px;
@@ -575,10 +610,14 @@ html, body {
     height: 200px;
   }
 
-  .stats-container {
-    gap: 15px;
-  }
+  .h4-ss{
+    gap: 10px;
+    padding: 10px;
 
+  }
+  .hero4-m{
+    min-height: 100%;
+  }
   .hero3-m h1 {
     font-size: 2.8rem;
   }
