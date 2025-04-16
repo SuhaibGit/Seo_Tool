@@ -31,7 +31,7 @@ export function Footer() {
     return (
         <div className='footer'>
             <div className='ith-class'><i class="fa-solid fa-info"></i></div>
-            <p>For more information, you can reach out to us through: ezhan@localhawk.com</p>
+            <p>Reach out to us through: hello@localhawk.com</p>
         </div>
     )
 }

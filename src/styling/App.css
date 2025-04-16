@@ -886,7 +886,7 @@
   }
 
   .info-div h1 {
-    font-size: 45px;
+    font-size: 50px;
   }
 
   .info-div p {
@@ -912,8 +912,8 @@
   }
 
   .search-bar {
-    width: 320px;
-    height: 40px;
+    width: 300px;
+    height: 30px;
   }
 
   .search-bar p {

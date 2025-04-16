@@ -52,7 +52,7 @@ export default function DataSEO() {
     
             const dotTopPosition = (relativeTop / containerHeight) * containerHeight;
     
-            setDotTop(dotTopPosition);
+            setDotTop(dotTopPosition - 5);
         };
     
         updateDotPosition();

@@ -13,7 +13,7 @@ const Hero3 = () => {
             <img src={LG} alt="" />
         </div>
         <div className='in-box2 block3'>
-            <h1>use grid search</h1>
+            <h2>use grid search</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
             <div className='just-button2'>
                     <button>Sign Up</button>
@@ -26,7 +26,7 @@ const Hero3 = () => {
             <img src={TK} alt="" />
         </div>
         <div className='in-box2 block3'>
-            <h1>monitor keywords</h1>
+            <h2>monitor keywords</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
             <div className='just-button2'>
                     <button>Sign Up</button>

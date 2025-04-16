@@ -49,16 +49,15 @@ html, body {
     background-color: #ffd369; 
     border-radius: 30px;
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+    padding: 5px;
   }
 
   .stats-container{
-    width: 98%;
+    width: 100%;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-around;
+    padding: 5px;
     gap: 20px;
-    padding: 10px;
   }
 
   .hms2{
@@ -69,7 +68,7 @@ html, body {
     height: 280px;
     background-color: #fff1cf; 
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+    padding: 5px;
   }
 
   .hms h2{
@@ -78,14 +77,18 @@ html, body {
     padding-left: 10px;
     margin: 0;
     text-align: left;
+    align-self: flex-start;
   }
 
   .hms p{
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 10px;
+    padding: 0px 10px;
     color: #263f44;
+    font-weight: 200;
     text-align: left;
+    align-self: flex-start;
   }
 
   .hms2 h2{
@@ -93,13 +96,18 @@ html, body {
     padding-left: 10px;
     color: #263f44;
     margin: 0;
+    text-align: left;
+    align-self: flex-start;
   }
 
   .hms2 p{
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-top: 10px;
+    padding: 0px 10px;
+    font-weight: 200;
     color: #263f44;
+    align-self: flex-start;
   }
 
   .hero3-m{
@@ -200,11 +208,11 @@ html, body {
 
 .boxed{
   position: absolute;
-  top: 49.8%;
-  left: 49.5%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 400px;
+  width: 402px;
+  height: 408px;
   background-color: #015668;
   display: flex;
   align-items: flex-start;
@@ -214,15 +222,17 @@ html, body {
   z-index: 100;
   color: white;
   flex-direction: column;
+  border: 10px solid #263f44;
   padding: 20px;
   gap: 20px;
 }
 
 .boxed h1{
-  font-size: 3.8rem;
+  font-size: 4rem;
   text-Align: left;
   color:#fff1cf;
   font-family: 'Poppins', sans-serif;
+  padding-left: 5px;
 }
 
 .boxed p{
@@ -230,6 +240,7 @@ html, body {
   font-size: 1.2rem;
   font-weight: 200;
   font-family: 'Poppins', sans-serif;
+  padding-left: 5px;
 }
 
 
@@ -306,18 +317,10 @@ html, body {
     height: 300px;
   }
 
-  .hms h2, .hms2 h2 {
-    font-size: 2.4rem;;
+  .stats-container {
+    flex-wrap: nowrap;
   }
 
-  .hms p, .hms2 p {
-    font-size: 0.9rem;
-  }
-  .h4-ss{
-    gap: 10px;
-    padding: 10px;
-
-  }
   .hero4-m{
     min-height: 100%;
   }
@@ -329,32 +332,15 @@ html, body {
   }
 
   .boxed h1 {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
   }
 
   .boxed p {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 1200px) {
-  .hms, .hms2 {
-    width: 180px;
-    height: 280px;
-  }
-
-  .hmhs h1 {
-    font-size: 3.5rem;
-  }
-
-  .hms h2, .hms2 h2 {
-    font-size: 2.2rem;;
-  }
-
-  .hms p, .hms2 p {
-    font-size: 0.8rem;
-  }
-
   .in-box img {
     width: 450px;
   }
@@ -379,12 +365,17 @@ html, body {
     width: 475px;
   }
 
+  .boxed {
+    width: 380px;
+    height: 380px;
+  }
+
   .boxed h1 {
-    font-size: 3.0rem;
+    font-size: 3.6rem;
   }
 
   .boxed p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .just-button {
@@ -393,11 +384,8 @@ html, body {
 }
 
 @media (max-width: 950px) {
-  .stats-container{
-    flex-wrap: wrap;
-  }
   .hms, .hms2 {
-    width: 140px;
+    width: 160px;
     height: 240px;
   }
 
@@ -406,11 +394,11 @@ html, body {
   }
 
   .hms h2, .hms2 h2 {
-    font-size: 1.8rem;;
+    font-size: 2.8rem;;
   }
 
   .hms p, .hms2 p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .in-box img {
@@ -446,16 +434,16 @@ html, body {
   }
 
   .boxed {
-    width: 230px;
-    height: 230px;
+    width: 350px;
+    height: 350px;
   }
   
   .boxed h1 {
-    font-size: 2.1rem;
+    font-size: 3.2rem;
   }
 
   .boxed p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .just-button {
@@ -487,7 +475,6 @@ html, body {
 
   .hms p, .hms2 p {
     font-size: 1rem;
-    padding: 0;
   }
 
   .in-cont {
@@ -527,11 +514,18 @@ html, body {
     width: 550px;
     text-align: center;
   }
+
   .h4-ss{
     gap: 10px;
     padding: 10px;
 
   }
+
+  .stats-container {
+    padding: 0px 10px;
+    justify-content: space-evenly;
+  }
+
   .hero4-m{
     min-height: 100%;
   }
@@ -540,18 +534,24 @@ html, body {
   }
 
   .boxed {
-    width: 230px;
-    height: 230px;
-    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #263f44;
   }
   
   .boxed h1 {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
 
   .boxed p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 0;
+  }
+}
+
+@media (max-width: 685px) {
+  .stats-container {
+    flex-wrap: wrap;
   }
 }
 
@@ -586,13 +586,12 @@ html, body {
   }
 
   .boxed {
-    width: 210px;
-    height: 210px;
-    padding: 15px;
+    width: 220px;
+    height: 220px;
   }
 
   .boxed h1 {
-    font-size: 1.9rem;
+    font-size: 2.6rem;
   }
 
   .boxed p {
@@ -606,8 +605,12 @@ html, body {
 
 @media (max-width: 470px) {
   .hms, .hms2 {
-    width: 100px;
+    width: 120px;
     height: 200px;
+  }
+
+  .hms p, .hms2 p {
+    padding-left: 10px;
   }
 
   .h4-ss{
@@ -630,13 +633,17 @@ html, body {
     font-size: 2.8rem;
   }
 
+  .in-cont {
+    margin-top: 5px;
+  }
+
   .boxed {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
   }
   
   .boxed h1 {
-    font-size: 1.6rem;
+    font-size: 2.0rem;
   }
 
   .boxed p {
@@ -649,6 +656,11 @@ html, body {
 
   .just-button button {
     font-size: 10px;
+  }
+
+  .stats-container {
+    padding: 0px 40px;
+    justify-content: space-evenly;
   }
 
 }
