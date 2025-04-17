@@ -6,7 +6,7 @@ const STORAGE_KEY = import.meta.env.VITE_MSG_KEY;
 const APP_KEY = import.meta.env.VITE_APP_ID;
 const DOMAIN = import.meta.env.VITE_AUTH_DOMAIN;
 const PROJECT_ID = import.meta.env.VITE_PROJ_ID;
-const STORAGE_BUCKET = import.meta.env.VITE_STORAGE_ID
+const STORAGE_BUCKET = import.meta.env.VITE_STORAGE_ID;
 
 const firebaseConfig = {
     apiKey: API_KEY,
