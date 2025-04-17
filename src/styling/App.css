@@ -654,10 +654,6 @@
     justify-self: center;
   }
 
-  .marker p {
-    padding: 0;
-  }
-
   .main-box{
     gap: 30px;
   }
