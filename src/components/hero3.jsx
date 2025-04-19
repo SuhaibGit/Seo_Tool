@@ -14,7 +14,7 @@ const Hero3 = () => {
         </div>
         <div className='in-box2 block3'>
             <h2>use grid search</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
+            <p>Just drop a pin, set your radius, and see how your visibility changes from one location to the next. It's the easiest way to spot ranking gaps, measure local performance, and dominate your service area.</p>
             <div className='just-button2'>
                     <button>Sign Up</button>
                 </div>
@@ -27,7 +27,7 @@ const Hero3 = () => {
         </div>
         <div className='in-box2 block3'>
             <h2>monitor keywords</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
+            <p>Add the keywords that matter most to your business and see how your rankings change across days, weeks, or months. Identify trends, measure the impact of your efforts, and make smarter decisions backed by real-time data.</p>
             <div className='just-button2'>
                     <button>Sign Up</button>
                 </div>

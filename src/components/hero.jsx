@@ -34,7 +34,7 @@ export default function HeroSection() {
                 </div>
                 <div className='info-div'>
                         <h1>track your local efforts</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum recusandae eligendi maiores accusamus quia tempore. Velit nam quasi laboriosam rerum dolore, autem voluptatem repudiandae, ipsum laudantium qui soluta temporibus nulla!</p>
+                        <p>Our all-in-one Local SEO tracker helps you pinpoint rankings with geo grids, audit your site, monitor GMB performance, and uncover what’s driving your local visibility.</p>
                         <button className='sgn-btn'>Sign Up</button>
                 </div>
             </div>

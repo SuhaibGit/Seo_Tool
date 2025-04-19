@@ -6,7 +6,7 @@ const Hero3_sub = () => {
     <div className='in-cont'>
       <div className='in-box2 block2 block4'>
         <h2>crawl any website</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum porro illum, omnis a, amet provident nulla veritatis beatae nam sit quisquam numquam. Ipsum quas, quo explicabo tenetur cum accusamus sapiente.</p>
+        <p>Whether you're auditing your own site or analyzing a competitor, our crawler gives you deep insights in just a few clicks. Discover what’s working for others, spot missed opportunities, and build smarter local SEO strategies with real data.</p>
         <div className='just-button2'>
           <button>Sign up</button>
         </div>

@@ -50,7 +50,7 @@ function Hero4() {
       </div>
       <div className='boxed'>
         <h1>and audit gmb</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>Easily track and optimize your Google My Business profile performance</p>
         {/* <div className='just-button'>
           <button>Sign Up</button>
         </div> */}

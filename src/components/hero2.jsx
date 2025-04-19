@@ -10,8 +10,8 @@ const Hero2 = () => {
             </div>
             <div className='stats-container'>
                 <div className='hms'>
-                    <h2>5.5M</h2>
-                    <p>searches everyday on the web</p>
+                    <h2>10s</h2>
+                    <p>is all it needs to crawl a site</p>
                 </div >
                 <div className='hms2'>
                     <h2>6x</h2>
@@ -23,7 +23,7 @@ const Hero2 = () => {
                     <p>accurate than the nearest competitors</p>
                 </div>
                 <div className='hms2'>
-                    <h2>7!</h2>
+                    <h2>2x</h2>
                     <p>powerful and accurate than the local falcon</p>
                 </div>
             </div>

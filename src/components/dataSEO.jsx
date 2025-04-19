@@ -13,6 +13,10 @@ const steps = [
     "use pagerank"
 ];
 
+const text = [
+    "Instantly understand how pages are connected and how content flows — perfect for audits, planning internal links, or just getting your bearings on any domain.", "Quickly understand how a website is organized — from top-level pages to deep content silos. Great for technical SEO audits, content planning, or assessing UX and crawlability.", "With a single crawl, our tool pulls important keywords from any website’s content. See what topics are being targeted — and what’s missing — to uncover gaps, opportunities, and competitor strategies.", "Crawl any website and extract the key entities that search engines associate with it — people, places, products, and more. Use this data to optimize your content for relevance and authority in the eyes of Google.", "Get insight into your site’s internal linking power. Our PageRank simulation shows which pages are carrying the most authority — so you can optimize your structure and prioritize the content that really matters."
+]
+
 export default function DataSEO() {
     const sectionsRef = useRef([]);
     const [activeIndex, setActiveIndex] = useState(0);
@@ -88,7 +92,7 @@ export default function DataSEO() {
                                 <>
                                     <div className="feature-text">
                                         <h3>{title}</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus dolores quam architecto ipsum perspiciatis odio hic, maiores fuga dolor culpa nihil nulla consequatur quasi impedit quo consequuntur nobis perferendis!</p>
+                                        <p>{text[index]}</p>
                                     </div>
                                     <div className="feature-img">
                                         <img src={[website, tier, keyword, entity, pr][index]} alt="" />
@@ -101,7 +105,7 @@ export default function DataSEO() {
                                     </div>
                                     <div className="feature-text">
                                         <h3>{title}</h3>
-                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, quis numquam dolore magnam ad explicabo ipsam, molestiae itaque maiores aliquid mollitia minus enim quam eveniet tempore quisquam iure architecto. Maiores.</p>
+                                        <p>{text[index]}</p>
                                     </div>
                                 </>
                             )}
