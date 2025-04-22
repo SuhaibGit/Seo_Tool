@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { db } from '../firebase';
 import { collection, addDoc } from 'firebase/firestore';
 import '../styling/App.css';
+import { toast } from 'react-toastify';
 
 export default function MainForm() {
     const [name, setName] = useState('');
@@ -20,12 +21,12 @@ export default function MainForm() {
         try {
             const formData = { name, email };
             await addDoc(collection(db, "formSubmissions"), formData);
-            alert("Submitted successfully!");
+            toast.success("Submitted successfully!");
             setName('');
             setEmail('');
         } catch (error) {
             console.error("Error submitting the data: ", error);
-            alert("There was an error. Please try again.");
+            toast.error("There was an error. Please try again.");
         } finally {
             setLoading(false);
         }
@@ -54,7 +55,7 @@ export default function MainForm() {
                 /><br />
 
                 <button type="submit" disabled={loading}>
-                    {loading ? "Submitting..." : "Submit"}
+                    {loading ? "Wait..." : "Submit"}
                 </button>
             </form>
 

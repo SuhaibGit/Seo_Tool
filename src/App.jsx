@@ -4,9 +4,11 @@ import Hero3 from './components/hero3';
 import DataSEO from './components/dataSEO';
 import MainForm from './components/form';
 import { Footer } from './components/form';
-import { motion, useScroll } from "framer-motion"
+// import { motion, useScroll } from "framer-motion"
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
-  const { scrollYProgress } = useScroll()
+  // const { scrollYProgress } = useScroll()
   return (
     <>
       {/* <motion.div
@@ -23,12 +25,33 @@ function App() {
             zIndex:1000
         }}
       /> */}
-      <HeroSection/>
-      <Hero2/>
-      <Hero3/> 
-      <DataSEO/>
-      <MainForm/>
-      <Footer /> 
+      <HeroSection />
+      <Hero2 />
+      <Hero3 />
+      <DataSEO />
+      <MainForm />
+      <Footer />
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        toastClassName="custom-toast"
+        icon={({ type }) => {
+          switch (type) {
+            case 'success':
+              return '🎉';
+            case 'error':
+              return '❌';
+            default:
+              return '🔔';
+          }
+        }}
+      />
     </>
   )
 }

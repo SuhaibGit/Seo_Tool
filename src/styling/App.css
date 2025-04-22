@@ -4,6 +4,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+.custom-toast {
+  background-color: #fff1cf !important;
+  color: #263f44 !important;
+  border-radius: 5px !important;
+  padding: 15px !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-toast .Toastify__progress-bar {
+  background: #263f44 !important;
+  border-radius: 0 0 8px 8px;
+}
+
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -303,6 +316,9 @@
   width: 80%;
   height: 50px;
   margin: 10px 0px;
+  padding: 2px;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .form-a label {
@@ -753,6 +769,10 @@
     padding: 10px;
   }
 
+  .form-a button {
+    font-size: 18px !important; 
+  }
+
   .ith-class {
     display: none;
   }
@@ -948,8 +968,7 @@
   };
 
   .form-a button {
-    font-size: 18px;
-    padding: 5px;
+    font-size: 18px !important; 
   }
 
   .counter {
