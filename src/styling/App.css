@@ -131,8 +131,8 @@
   color: #263f44;
   font-size: 25px;
   font-weight: 800;
-  align-content: center;
-  justify-items: center;
+  align-content: center !important;
+  justify-items: center !important;
 }
 
 .search-bar {
@@ -141,7 +141,7 @@
   width: 450px;
   height: 50px;
   border: 2px solid black;
-  justify-items: center;
+  justify-items: center !important;
 }
 
 .search-bar p {
