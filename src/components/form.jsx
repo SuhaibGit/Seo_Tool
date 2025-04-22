@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { db } from '../firebase';
-import { collection, addDoc } from 'firebase/firestore';
+import { collection, addDoc, getDocs } from 'firebase/firestore';
 import '../styling/App.css';
 import { toast } from 'react-toastify';
 
@@ -8,20 +8,37 @@ export default function MainForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [loading, setLoading] = useState(false);
+    const [query, setQuery] = useState(0);
 
+    useEffect(() => {
+        fetchCount();
+    }, []);
+
+    const fetchCount = async () => {
+        const snapshot = await getDocs(collection(db, 'formSubmissions'));
+        setQuery(snapshot.size);
+        console.log("Query Length: " + snapshot.size);
+    };
+    
     const handleForm = async (e) => {
         e.preventDefault();
-
+    
         if (!name.trim() || !email.trim()) {
-            alert("Please fill in both name and email.");
+            toast.warning("Please fill in both name and email.");
             return;
         }
-
+    
+        if (query >= 50) {
+            toast.info("Sorry, no slots left!");
+            return;
+        }
+    
         setLoading(true);
         try {
             const formData = { name, email };
             await addDoc(collection(db, "formSubmissions"), formData);
             toast.success("Submitted successfully!");
+            await fetchCount(); 
             setName('');
             setEmail('');
         } catch (error) {
@@ -31,7 +48,7 @@ export default function MainForm() {
             setLoading(false);
         }
     };
-
+    
     return (
         <div className='form-div'>
             <h2>Add your name into the <span>wishlist</span></h2>
@@ -61,7 +78,7 @@ export default function MainForm() {
 
             <div className='counter'>
                 <i className="fa-solid fa-hashtag"></i>
-                <h2>Slots Left: 50</h2>
+                <h2>Slots Left: {50 - query}</h2>
             </div>
         </div>
     );
