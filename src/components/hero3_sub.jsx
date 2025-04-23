@@ -8,7 +8,7 @@ const Hero3_sub = () => {
         <h2>crawl any website</h2>
         <p>Whether you're auditing your own site or analyzing a competitor, our crawler gives you deep insights in just a few clicks. Discover what’s working for others, spot missed opportunities, and build smarter local SEO strategies with real data.</p>
         <div className='just-button2'>
-          <button>Sign up</button>
+          <button><a href='#signup-form'>Sign Up</a></button>
         </div>
       </div>
       <div className='in-box block3'>

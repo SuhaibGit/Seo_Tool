@@ -50,7 +50,7 @@ export default function MainForm() {
     };
     
     return (
-        <div className='form-div'>
+        <div id="signup-form" className='form-div'>
             <h2>Add your name into the <span>wishlist</span></h2>
             <p>You will be notified via email once the first version is released</p>
 

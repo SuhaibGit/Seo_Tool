@@ -287,6 +287,11 @@ html, body {
   margin-top: 40px;
 }
 
+.just-button2 a {
+  color: #263f44;
+  text-decoration: none;
+}
+
 .block{
   /* animation: appear  linear;
   animation-timeline: view();

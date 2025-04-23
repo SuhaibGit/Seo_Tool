@@ -35,7 +35,7 @@ export default function HeroSection() {
                 <div className='info-div'>
                         <h1>track your local efforts</h1>
                         <p>Our all-in-one Local SEO tracker helps you pinpoint rankings with geo grids, audit your site, monitor GMB performance, and uncover what’s driving your local visibility.</p>
-                        <button className='sgn-btn'>Sign Up</button>
+                        <button className='sgn-btn'><a href='#signup-form'>Sign Up</a></button>
                 </div>
             </div>
         </>
@@ -87,7 +87,7 @@ function Header() {
                 <a href="#">Pricing</a>
             </div>
             <div className='nav-button'>
-                <button>Sign Up</button>
+                <button><a href='#signup-form'>Sign Up</a></button>
             </div>
         </div>
     );
