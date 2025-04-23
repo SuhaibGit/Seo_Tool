@@ -3,6 +3,7 @@ import Hero2 from './components/hero2';
 import Hero3 from './components/hero3';
 import DataSEO from './components/dataSEO';
 import MainForm from './components/form';
+import Slideshow from './components/slideshow';
 import { Footer } from './components/form';
 // import { motion, useScroll } from "framer-motion"
 import { ToastContainer } from 'react-toastify';
@@ -29,6 +30,7 @@ function App() {
       <Hero2 />
       <Hero3 />
       <DataSEO />
+      <Slideshow />
       <MainForm />
       <Footer />
       <ToastContainer
