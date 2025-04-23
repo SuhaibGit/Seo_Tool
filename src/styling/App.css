@@ -1052,6 +1052,11 @@
     border: 2px solid #263f44;
   }
 
+  .feature-img img {
+    width: 280px;
+    height: 280px;
+  }
+
   .form-a label {
     font-size: 18px;
   }
